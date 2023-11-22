@@ -1,6 +1,11 @@
 <script>
+import Title from "./components/Title.vue";
 
 export default {
+  components: {
+    Title
+  },
+
   data() {
     return{};
   },
@@ -12,7 +17,8 @@ export default {
 </script>
 
 <template>
-<h1>La mia prima app con Vite!</h1>
+  <h1>La mia prima app con Vite!</h1>
+  <Title />
 </template>
 
 <style scoped>
